@@ -1,0 +1,85 @@
+* {
+    /* background-color: #FFBB5C; */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    min-height: 100vh;
+    background: url('./assets/bk.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.app {
+    font-family: Apple Chancery, cursive;
+    display: flex;
+    width: 420px;
+    background-color: transparent;
+    border: 4px solid aliceblue;
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    height: 100%;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.app form {
+
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 100%;
+}
+
+.app form input {
+    height: 50%;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-radius: 50px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+
+input::placeholder {
+    font-family: Apple Chancery, cursive;
+    color: aliceblue;
+}
+
+.app form button {
+    font-family: Apple Chancery, cursive;
+    background: aliceblue;
+    outline: none;
+    border: 2px solid;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    height: 40%;
+    width: 50%;
+}
+.task-box{
+    width: 100%;
+    
+}
+.task {
+    flex-wrap: wrap;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.task button{
+    font-family: Apple Chancery, cursive;
+    background: aliceblue;
+    outline: none;
+    border: 2px solid;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    
+}
+.finish{
+    text-decoration: line-through;
+    color: red;
+}
