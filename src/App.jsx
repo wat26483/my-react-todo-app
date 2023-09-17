@@ -13,8 +13,7 @@ function reducer(state, action) {
           id: state.length + 1,
           text: action.playload,
           isedit: false,
-        }
-      ]
+        }]
     case 'remove':
       return state.filter(todo => todo.id !== action.playload.id);
     case 'finish':
